@@ -1,5 +1,7 @@
 # Windows Attack Simulation & Digital Forensics Investigation
+#Disclaimer
 
+This project is an educational simulation conducted in a controlled Windows environment. The activities described were intentionally performed for learning and demonstration purposes. They do not represent a real-world security incident or an actual attack against an organization.
 ## Overview
 
 This project demonstrates a simulated Windows security incident investigated using **Hayabusa** and **Hayabusa-Lens**.
