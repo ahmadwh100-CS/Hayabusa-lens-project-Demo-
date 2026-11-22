@@ -30,6 +30,8 @@ The simulated incident includes:
 - Persistence Mechanism
 - Windows Event Log Clearing
 
-## Project Status
+## Investigation Documentation
 
-Investigation documentation and forensic findings will be added as the project develops.
+The detailed investigation findings, attack timeline, and supporting screenshots are available here:
+
+[View Investigation Findings](Investigation/Findings.md)
