@@ -62,3 +62,17 @@ Run:
 hayabusa-lens
 ```
 The application should open in your browser.
+
+## Lessons Learned
+
+Through this project, I gained practical experience in:
+
+Windows Event Logging: Understanding how Windows records security-related activities through Event IDs and event logs.
+
+Attack Detection: Identifying suspicious behavior such as failed login attempts, account creation, privilege changes, scheduled task creation, and security log clearing.
+
+Digital Forensics: Using Hayabusa and Hayabusa-Lens to analyze event logs, identify suspicious activity, and reconstruct an incident timeline.
+
+Evidence Preservation: Understanding the importance of preserving event logs before they can be modified or cleared.
+
+This project helped me understand how individual Windows events can be connected to build a clearer picture of suspicious activity.
