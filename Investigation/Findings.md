@@ -110,3 +110,21 @@ The investigation demonstrates how Windows Event Logs can reveal suspicious acti
 - Chainsaw
 - Windows Event Viewer
 - Windows Security Event Logs
+
+
+## Evidence Screenshots
+
+### 1. Password Spraying
+![Password Spraying](01-Password-Spraying.png)
+
+### 2. Account Creation
+![Account Creation](02-Account-Creation.png)
+
+### 3. Privilege Escalation
+![Privilege Escalation](03-Privilege-Escalation.png)
+
+### 4. Scheduled Task Creation
+![Scheduled Task](04-Scheduled-Task.png)
+
+### 5. Security Log Clearing
+![Security Log Clearing](05-Log-Clearing.png)
