@@ -128,3 +128,20 @@ The investigation demonstrates how Windows Event Logs can reveal suspicious acti
 
 ### 5. Security Log Clearing
 ![Security Log Clearing](05-Log-Clearing.png)
+
+
+## MITRE ATT&CK Mapping
+
+The simulated activities were mapped to the MITRE ATT&CK Enterprise framework to categorize the observed behaviors.
+
+| Simulated Activity | Technique | Technique ID |
+|---|---|---|
+| Password spraying attempts | Password Spraying | T1110.003 |
+| Local account creation | Create Account: Local Account | T1136.001 |
+| Adding the account to Administrators | Additional Local or Domain Groups | T1098.007 |
+| Scheduled task creation | Scheduled Task | T1053.005 |
+| Clearing Windows Security logs | Clear Windows Event Logs | T1685.005 |
+
+**Note:** These mappings describe behaviors observed during the controlled simulation. They do not establish that a real threat actor was involved. The scheduled task was configured to execute a harmless demonstration command (`echo demo`), and the newly created account was not used for an interactive login.
+
+For more information, visit the [MITRE ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/).
