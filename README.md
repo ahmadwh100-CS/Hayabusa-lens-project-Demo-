@@ -16,9 +16,10 @@ I created my own attack scenario on a Windows machine, simulating several techni
 ## Tools & Technologies
 
 - Hayabusa
+- chainsaw 
 - Hayabusa-Lens
 - Windows Event Logs (.evtx)
-- Windows 11
+- Windows 11 VM
 
 ## Investigation Scenario
 
