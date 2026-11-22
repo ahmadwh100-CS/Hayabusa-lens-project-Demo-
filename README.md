@@ -1,3 +1,34 @@
-# Hayabusa-lens-project-Demo-
-This will be a Demo / Presentation for the digital forensics course in ZUJ using the tool hayabusa lens for simplifying windows security logs 
-A hands-on Windows attack simulation and digital forensics investigation using Hayabusa and Hayabusa-Lens. Simulates common attack techniques and analyzes Windows Event Logs to identify suspicious activity and reconstruct the attack timeline.
+# Windows Attack Simulation & Digital Forensics Investigation
+
+## Overview
+
+This project demonstrates a simulated Windows security incident investigated using **Hayabusa** and **Hayabusa-Lens**.
+
+I created my own attack scenario on a Windows machine, simulating several techniques commonly associated with real-world attacks. I then collected and analyzed Windows Event Logs to investigate the activity and reconstruct the sequence of events.
+
+## Objectives
+
+- Simulate suspicious activity on a Windows environment.
+- Generate realistic Windows Event Log evidence.
+- Investigate suspicious events using Hayabusa and Hayabusa-Lens.
+- Reconstruct the attack timeline and identify evidence of attacker activity.
+
+## Tools & Technologies
+
+- Hayabusa
+- Hayabusa-Lens
+- Windows Event Logs (.evtx)
+- Windows 11
+
+## Investigation Scenario
+
+The simulated incident includes:
+
+- Password Brute Force / Password Spraying Attempts
+- Unauthorized User Account Creation
+- Persistence Mechanism
+- Windows Event Log Clearing
+
+## Project Status
+
+Investigation documentation and forensic findings will be added as the project develops.
