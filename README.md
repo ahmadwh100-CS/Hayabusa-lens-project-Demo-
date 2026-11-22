@@ -43,18 +43,18 @@ The detailed investigation findings, attack timeline, and supporting screenshots
 Hayabusa-Lens requires Python 3.9 or newer.
 
 Download Python from: https://www.python.org/downloads/
-
+2. Installing python
 On Windows, open PowerShell and install pipx:
 ```powershell
 py -m pip install --user pipx
 py -m pipx ensurepath
 ```
+3. Installing hayabusa-lens
 Close and reopen PowerShell, then install Hayabusa-Lens:
 ```Powershell
 pipx install hayabusa-lens
 ```
-2. Launch Hayabusa-Lens
-
+4. Launch Hayabusa-Lens
 Run:
 ```Powershell
 hayabusa-lens
